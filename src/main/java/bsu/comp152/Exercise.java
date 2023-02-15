@@ -1,7 +1,7 @@
 package bsu.comp152;
 
 /**
- * InsulinDosage -
+ * Exercise -
  * A class for Project 1, COMP 152
  *
  * Starter code Laura K. Gross, laura.gross@bridgew.edu, 1/2023
