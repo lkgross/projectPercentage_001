@@ -10,7 +10,10 @@ package bsu.comp152;
  */
 public class Exercise {
     public static void main(String[] args) {
-
+        System.out.println(percentage(365, 365));
+        System.out.println(percentage(182, 365));
+        System.out.println(percentage(54, 365));
+        System.out.println(percentage(301, 366));
     }
 
     /**
@@ -21,6 +24,6 @@ public class Exercise {
      * @return
      */
     public static double percentage(int daysMetTarget, int daysInYear) {
-        return 0.0;
+        return daysMetTarget/(double)daysInYear * 100;
     }
 }
